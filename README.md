@@ -1,4 +1,4 @@
-# vue-koperasi
+# vue-koperasi-simpan-pinjam
 
 ## Project setup
 ```
