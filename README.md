@@ -1,4 +1,4 @@
-# koperasi-simpan-pinjam
+# koperasi-simpan-pinjam laravue
 
 ## Project setup
 ```
