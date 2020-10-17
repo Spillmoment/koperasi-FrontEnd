@@ -7,7 +7,7 @@
         <div class="container">
           <div
             class="row justify-content-center form-bg-image"
-            data-background-lg="../assets/illustrations/signin.svg"
+            data-background-lg="../assets/img/illustrations/signin.svg"
           >
 
             <div class="col-12 d-flex align-items-center justify-content-center">
