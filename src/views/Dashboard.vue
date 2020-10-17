@@ -1,36 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-dark navbar-theme-primary px-4 col-12 d-md-none">
-      <a
-        class="navbar-brand mr-lg-5"
-        href="/"
-      >
-        <img
-          class="navbar-brand-dark"
-          src="assets/img/brand/light.svg"
-          alt="Volt logo"
-        /> <img
-          class="navbar-brand-light"
-          src="assets/img/brand/dark.svg"
-          alt="Volt logo"
-        />
-      </a>
-      <div class="d-flex align-items-center">
-        <button
-          class="navbar-toggler d-md-none collapsed"
-          type="button"
-          data-toggle="collapse"
-          data-target="#sidebarMenu"
-          aria-controls="sidebarMenu"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-
-    </nav>
-
+    <Navs />
     <div class="container-fluid bg-soft">
       <div class="row">
         <div class="col-12">
@@ -301,6 +271,7 @@
 </template>
 
 <script>
+import Navs from '@/components/Navs.vue'
 import Navbar from '@/components/Navbar.vue'
 import Sidebar from '@/components/Sidebar.vue'
 import Footer from '@/components/Footer.vue'
@@ -308,6 +279,7 @@ import Footer from '@/components/Footer.vue'
 export default {
   name: 'Dashboard',
   components: {
+    Navs,
     Navbar,
     Sidebar,
     Footer
