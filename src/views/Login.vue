@@ -1,6 +1,6 @@
 <template>
   <div class="bg-soft">
-    <h1>hai</h1>
+    <h1 class="mt-5">hai</h1>
   </div>
 </template>
 
